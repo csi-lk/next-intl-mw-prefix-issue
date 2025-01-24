@@ -1,11 +1,7 @@
 # example-app-router
 
-An example that showcases basic usage of `next-intl` with the App Router, including internationalized routing.
+An example that showcases custom prefixes not working on top of `next-intl` example here - https://github.com/amannn/next-intl/tree/main/examples/example-app-router
 
-[Demo](https://next-intl-example-app-router.vercel.app/)
+The main file to read is the [`src/i18n/routing.ts`](./src/i18n/routing.ts) to see how the prefixes are setup
 
-## Deploy your own
-
-By deploying to [Vercel](https://vercel.com), you can check out the example in action. Note that you'll be prompted to create a new GitHub repository as part of this, allowing you to make subsequent changes.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/amannn/next-intl/tree/main/examples/example-app-router)
+But when you go to localhost:3000 in browser it redirects to `en-AU`

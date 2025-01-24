@@ -1,0 +1,46 @@
+{
+  "Error": {
+    "description": "<p>Kua tūpono mātou ki tētahi hapa.</p><p>Ka taea e koe te <retry>utaina anō te whārangi</retry> i toro ai koe.</p>",
+    "title": "I hapa tētahi mea!"
+  },
+  "IndexPage": {
+    "description": "He tauira taketake tēnei e whakaatu ana i te whakamahinga o <code>next-intl</code> me te Next.js App Router. Whakamātauhia te huri i te reo kei te kokonga matau runga, ka kite i te rerekētanga o te ihirangi.",
+    "title": "Tauira next-intl"
+  },
+  "LocaleLayout": {
+    "title": "Tauira next-intl"
+  },
+  "LocaleSwitcher": {
+    "label": "Hurihia te reo",
+    "locale": "{locale, select, de {🇩🇪 Tiamana} en {🇺🇸 Ingarihi} other {Reo Kāore i Mōhiotia}}"
+  },
+  "Manifest": {
+    "name": "Tauira next-intl"
+  },
+  "Navigation": {
+    "home": "Kāinga",
+    "pathnames": "Ingoa Ara"
+  },
+  "NotFoundPage": {
+    "description": "Tēnā koa, tirohia anō te pae wāhitau pūtirotiro, ka whakamahia rānei te whakatere kia haere ki tētahi whārangi e mōhiotia ana.",
+    "title": "Kāore i kitea te whārangi"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Ākona atu mō next-intl i roto i ngā tuhinga whaimana.",
+        "href": "https://next-intl.dev",
+        "title": "Tuhinga"
+      },
+      "source": {
+        "description": "Tirohia te waehere puna o tēnei tauira i GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Waehere puna"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Kua whakamāoritia hoki ngā ingoa ara.</p><p>Mēnā kei te whakamahi koe i te reo taketake Ingarihi, ka kite koe i <code>/en/pathnames</code> i te pae wāhitau pūtirotiro o tēnei whārangi.</p><p>Mēnā ka huri koe i te reo ki te Tiamana, ka whakamāoritia te URL e ai ki te reo (<code>/de/pfadnamen</code>).</p>",
+    "title": "Ingoa Ara"
+  }
+}
