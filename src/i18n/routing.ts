@@ -4,11 +4,13 @@ import {defineRouting} from 'next-intl/routing';
 export const routing = defineRouting({
   locales: ['en-AU', 'en-NZ', 'mi-NZ'],
   defaultLocale: 'en-AU',
-  pathnames: {
+  localePrefix: {
     mode: 'always',
-    'en-AU': '/au',
-    'en-NZ': '/nz',
-    'mi-NZ': '/nz/mi'
+    prefixes: {
+      'en-AU': '/au',
+      'en-NZ': '/nz',
+      'mi-NZ': '/nz/mi'
+    }
   }
 });
 
